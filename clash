@@ -6,7 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Relay_🇨🇳 CN-🇷🇴RO_66, server: da.kanao.xyz, port: 58805, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_63, server: us-01.leco.ml, port: 41560, type: ss, cipher: aes-256-gcm, password: fd85e31b-0d47-418c-b641-8cc11b2e0cdb, udp: true}
   - {name: Relay_🇨🇳 CN-🇷🇴RO_65, server: xi.kanao.xyz, port: 58806, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳 CN-🇭🇰HK_67, server: xi.kanao.xyz, port: 58820, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -16,7 +15,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: ♻️ 自动选择
@@ -25,7 +23,6 @@ proxy-groups:
     interval: 300
     proxies:
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: 🎥 NETFLIX
@@ -35,7 +32,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: ⛔️ 广告拦截
@@ -57,7 +53,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: 🌏 国内媒体
@@ -71,7 +66,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: 📲 电报信息
@@ -80,7 +74,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: 🍎 苹果服务
@@ -90,7 +83,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
   - name: 🎯 全球直连
@@ -109,7 +101,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳 CN-🇷🇴RO_66
-      - Relay_🇨🇳 CN-🇺🇸US_63
       - Relay_🇨🇳 CN-🇷🇴RO_65
       - Relay_🇨🇳 CN-🇭🇰HK_67
 rules:
