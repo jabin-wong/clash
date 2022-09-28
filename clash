@@ -5,151 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_-🇨🇦CA_34, server: 124.71.16.99, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🏁ZZ_26, server: gy.alhttdw.cn, port: 11721, type: trojan, password: f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7, sni: gy.alhttdw.cn, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_44, server: 124.71.16.99, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_24, server: 120.195.181.51, port: 12350, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_42, server: 120.195.181.51, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
   - {name: Relay_-🇷🇺RU_19, server: 120.195.181.51, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_45, server: 120.195.181.72, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_49, server: 120.195.181.51, port: 12351, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: CA_08 |82.68Mb, server: 165.154.235.171, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_108, server: s1.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hass.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_109, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: CA_11 |82.93Mb, server: 165.154.235.186, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: _50, server: 120.195.181.72, port: 12355, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: US_62 |10.87Mb, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: riop.miaoge110.cf}, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_08, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hass.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_09, server: s3.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hass.win, skip-cert-verify: true, udp: true}
   - {name: Relay_-🇷🇺RU_32, server: 120.195.181.51, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: US_134 |10.17Mb, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_47, server: 124.71.16.99, port: 12355, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: FR_35 |45.30Mb, server: uk01.proxysocks.xyz, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTBhY, udp: true}
-  - {name: Relay_-🇲🇩MD_18, server: 124.71.16.99, port: 12332, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: US_118 |61.87Mb, server: s3.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hass.win, skip-cert-verify: true, udp: true}
-  - {name: CA_58, server: 138.197.165.31, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 138.197.165.31}, udp: true}
-  - {name: Relay_-🇨🇦CA_28, server: 120.195.181.72, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_59, server: sg-ovh1.v2-ray.com, port: 80, type: vmess, uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ghhhur/632736634acba/, ws-headers: {Host: sg-ovh1.v2-ray.com}, udp: true}
-  - {name: Relay_-🇷🇺RU_35, server: 120.195.181.51, port: 12337, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇨🇦CA_23, server: 124.71.16.99, port: 12351, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: US_88 |112.36Mb, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: PL_102, server: 5.188.108.208, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU_65 |14.42Mb, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
-  - {name: Relay_-🇷🇺RU_36, server: 120.195.181.51, port: 12336, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_51, server: 120.195.181.72, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇧🇷BR_02, server: 124.225.24.153, port: 7586, type: ss, cipher: aes-128-gcm, password: f964C0QL8vQTaAZU, udp: true}
-  - {name: _38, server: 120.195.181.72, port: 12335, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_37, server: 120.195.181.51, port: 12335, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: CA_01, server: 165.154.243.224, port: 24568, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: US_63 |23.67Mb, server: lio.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lio.miaoge.gay}, udp: true}
+  - {name: RO_06, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇨🇦CA_34
-      - Relay_-🏁ZZ_26
-      - Relay_-🇨🇦CA_44
-      - Relay_-🇨🇦CA_24
-      - Relay_-🇨🇦CA_42
       - Relay_-🇷🇺RU_19
-      - Relay_-🇷🇺RU_45
-      - Relay_-🇨🇦CA_49
-      - CA_08 |82.68Mb
-      - Relay_🇺🇸 US-🇺🇸US_108
-      - Relay_🇺🇸 US-🇺🇸US_109
-      - CA_11 |82.93Mb
-      - _50
+      - US_62 |10.87Mb
+      - Relay_🇺🇸 US-🇺🇸US_08
+      - Relay_🇺🇸 US-🇺🇸US_09
       - Relay_-🇷🇺RU_32
-      - US_134 |10.17Mb
-      - Relay_-🇨🇦CA_47
-      - FR_35 |45.30Mb
-      - Relay_-🇲🇩MD_18
-      - US_118 |61.87Mb
-      - CA_58
-      - Relay_-🇨🇦CA_28
-      - Relay_🇨🇦CA-🇨🇦CA_59
-      - Relay_-🇷🇺RU_35
-      - Relay_-🇨🇦CA_23
-      - US_88 |112.36Mb
-      - PL_102
-      - RU_65 |14.42Mb
-      - Relay_-🇷🇺RU_36
-      - Relay_-🇷🇺RU_51
-      - Relay_-🇧🇷BR_02
-      - _38
-      - Relay_-🇷🇺RU_37
+      - CA_01
+      - US_63 |23.67Mb
+      - RO_06
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
