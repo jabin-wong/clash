@@ -5,55 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_-🇷🇺RU_19, server: 120.195.181.51, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: US_62 |10.87Mb, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: riop.miaoge110.cf}, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_08, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hass.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_09, server: s3.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hass.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_-🇷🇺RU_32, server: 120.195.181.51, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: CA_01, server: 165.154.243.224, port: 24568, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
-  - {name: US_63 |23.67Mb, server: lio.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lio.miaoge.gay}, udp: true}
-  - {name: RO_06, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: IT_23, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: tw02.henet.cyou}, udp: true}
+  - {name: KR_30, server: us01.henet.cyou, port: 20001, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: us01.henet.cyou}, udp: true}
+  - {name: US_50, server: v43.idcloudhost.de, port: 80, type: vmess, uuid: 732307ff-dc27-42cd-b5d0-782744a40152, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v43.idcloudhost.de}, udp: true}
+  - {name: KR_29, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: us02.henet.cyou}, udp: true}
+  - {name: IT_22, server: hk01.henet.cyou, port: 20000, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: hk01.henet.cyou}, udp: true}
+  - {name: KR_28, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: sg01.henet.cyou}, udp: true}
+  - {name: US_89, server: 47.87.166.143, port: 44443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: KR_27, server: sg02.henet.cyou, port: 20001, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: sg02.henet.cyou}, udp: true}
+  - {name: DE_41, server: 193.108.118.202, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: CA_12, server: 139.99.117.48, port: 443, type: vmess, uuid: 0aabdcbd-805f-4f4c-ba24-b176e736b37d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /b26c74ee96d/, ws-headers: {Host: 139.99.117.48}, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_14, server: sgp.naixii.xyz, port: 443, type: vmess, uuid: 0aabdcbd-805f-4f4c-ba24-b176e736b37d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /b26c74ee96d/, ws-headers: {Host: sgp.naixii.xyz}, udp: true}
+  - {name: IT_21, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 92d00f42-5c4e-4f65-a7d3-bff3be8e1be6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: tw01.henet.cyou}, udp: true}
+  - {name: US_49, server: v42.idcloudhost.de, port: 80, type: vmess, uuid: 732307ff-dc27-42cd-b5d0-782744a40152, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v42.idcloudhost.de}, udp: true}
+  - {name: JP_54, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: 172.105.219.18}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_98, server: 152.67.213.242, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_74, server: 47.243.143.215, port: 64008, type: vmess, uuid: dae844ab-4613-4884-893e-14b74ba4b687, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.143.215]}}, udp: true}
+  - {name: US_71, server: 38.54.33.116, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: US_42, server: 3.99.152.11, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: CN_36, server: 119.91.223.167, port: 80, type: vmess, uuid: 5087e6ea-b650-443e-923f-b754661b8c47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 119.91.223.167}, udp: true}
+  - {name: US_84, server: 47.243.241.250, port: 54703, type: vmess, uuid: 95b8821c-3432-4630-ad55-35ab873a0796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.241.250]}}, udp: true}
+  - {name: SG_62, server: 8.210.125.63, port: 56911, type: vmess, uuid: 602dc255-5441-40c5-bcf6-2ca4a12d90a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.125.63]}}, udp: true}
+  - {name: US_81, server: 47.243.108.35, port: 39729, type: vmess, uuid: dc47d16f-d3e0-4b37-bde4-218e90144a8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.108.35]}}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_27, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,14 +132,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -90,41 +165,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,14 +260,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇷🇺RU_19
-      - US_62 |10.87Mb
-      - Relay_🇺🇸 US-🇺🇸US_08
-      - Relay_🇺🇸 US-🇺🇸US_09
-      - Relay_-🇷🇺RU_32
-      - CA_01
-      - US_63 |23.67Mb
-      - RO_06
+      - IT_23
+      - KR_30
+      - US_50
+      - KR_29
+      - IT_22
+      - KR_28
+      - US_89
+      - KR_27
+      - DE_41
+      - CA_12
+      - Relay_🇨🇦CA-🇨🇦CA_14
+      - IT_21
+      - US_49
+      - JP_54
+      - Relay_🇺🇸US-🇺🇸US_98
+      - US_74
+      - US_71
+      - US_42
+      - CN_36
+      - US_84
+      - SG_62
+      - US_81
+      - Relay_🇨🇳CN-🇭🇰HK_27
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
